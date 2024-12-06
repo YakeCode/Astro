@@ -34,5 +34,13 @@ npm create astro@latest [Nombre-del-proyecto]
 - 3 Instalar Tailwind
 
 ```Bash
+  npx astro add tailwind
+```
 
+- 4 Crear una carpeta styles y dentro de esta crear el archivo **base.css** con la siguiente configuración.
+
+```Css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 ```
