@@ -45,6 +45,29 @@ npm create astro@latest [Nombre-del-proyecto]
 @tailwind utilities;
 ```
 
+- 5 Complemento de tailwind
+
+  Es un plugin oficial de Tailwind CSS diseñado para proporcionar estilos predefinidos y altamente configurables para contenido HTML enriquecido, como artículos, blogs, documentación, y más.
+
+```Bash
+npm install -D @tailwindcss/typography
+```
+
+- Importarlo en ka configuración de tailwind
+
+```Javascript
+/** @type {import('tailwindcss').Config} */
+export default {
+	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
+	theme: {
+		extend: {},
+	},
+	plugins: [require('@tailwindcss/typography')],
+}
+```
+
+- Incluir la palabra reservada **prose** donde se renderiza
+
 ### Instalar react
 
 ```Bash
