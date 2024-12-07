@@ -44,3 +44,9 @@ npm create astro@latest [Nombre-del-proyecto]
 @tailwind components;
 @tailwind utilities;
 ```
+
+### Instalar react
+
+```Bash
+npx astro add react
+```
