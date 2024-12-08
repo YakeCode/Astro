@@ -68,8 +68,14 @@ export default {
 
 - Incluir la palabra reservada **prose** donde se renderiza
 
-### Instalar react
+### 6 Instalar react
 
 ```Bash
 npx astro add react
+```
+
+- 7 Enriquecer los archivos md instalando **mdx**
+
+```Bash
+npx astro add mdx
 ```

@@ -3,5 +3,6 @@
     "cSpell.words": [
         "frontmatter",
         "Frontmatter"
-    ]
+    ],
+    "mdx-preview.preview.useVscodeMarkdownStyles": false
 }
